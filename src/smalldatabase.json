@@ -1,0 +1,17 @@
+[
+  { "name": "Afghanistan", "code": "AF", "price": "64" },
+  { "name": "Åland Islands", "code": "AX", "price": "287" },
+  { "name": "Albania", "code": "AL", "price": "469" },
+  { "name": "Algeria", "code": "DZ", "price": "1797" },
+  { "name": "American Samoa", "code": "AS", "price": "1067" },
+  { "name": "AndorrA", "code": "AD", "price": "1070" },
+  { "name": "Angola", "code": "AO", "price": "452" },
+  { "name": "Anguilla", "code": "AI", "price": "884" },
+  { "name": "Antarctica", "code": "AQ", "price": "939" },
+  { "name": "Antigua and Barbuda", "code": "AG", "price": "550" },
+  { "name": "Argentina", "code": "AR", "price": "975" },
+  { "name": "Armenia", "code": "AM", "price": "152" },
+  { "name": "Aruba", "code": "AW", "price": "760" },
+  { "name": "Australia", "code": "AU", "price": "1116" },
+  { "name": "Austria", "code": "AT", "price": "1828" }
+]

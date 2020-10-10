@@ -1,2 +1,1 @@
-# TravelApp-Backup
-Javascript Travel App
+# TravelApp

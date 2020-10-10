@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background: rgb(40, 122, 150);
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  margin-top: -30px;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: rgba(50, 207, 71, 0.5);
+}
+
+input {
+  width: 90%;
+  height: 50px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  width: 40%;
+  border-radius: 50px;
+  height: 30px;
+  background-color: rgba(50, 207, 71, 0.5);
+}

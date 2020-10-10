@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+  <title>Travel Far</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	<link rel="stylesheet" href="/src/styles.css" />
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+		/>
+		
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+
+
+  <body>
+			
+			<script src="src/index.js"></script>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div
+        class="w3-bar w3-white w3-padding w3-card"
+        style="letter-spacing: 4px;"
+      >
+        <a href="#home" class="w3-bar-item w3-button">TravelFar</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header
+      class="w3-display-container w3-content w3-wide"
+      style="max-width: 1600px; min-width: 500px;"
+      id="home"
+    >
+      <img
+        class="w3-image"
+        src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80"
+        alt="Plane"
+        width="1600"
+        height="800"
+      />
+      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 class="w3-xxlarge" style="color:white;">TravelFar App</h1>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="padding-top:6em;">
+      <!-- About Section -->
+      <div class="w3-row" id="about">
+
+        <h2>Knowledge and destinations just one click away</h2>
+        <p>
+          With TravelFarApp knowledge and travelling at great prices come
+          together!
+        </p>
+        <p>
+          Look for your favourite city and get info fun facts, cool images and
+          big discounts to make it a real
+        </p>
+			</div>
+			
+		</div>
+
+      <!-- Search Section -->
+      <!-- This section allows users to search for different cities and retrieve data. -->
+      <div class="w3-container w3-padding-64" id="destinations">
+        <h1>Where do you want to go?</h1>
+        <br />
+
+        <!-- Using an html form the user triggers the javascript function 'retrieveData' to run when they click the submit button -->
+				<!--form action="/action_page.php"  method="post" onsubmit="return myFunction();"-->
+				
+		
+
+        <form id="search" >
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Country"
+              id="destination"
+            />
+          </p>
+          <p>
+            <button class="w3-button w3-light-grey w3-section" type="submit">
+              Search
+            </button>
+          </p>
+        </form>
+			</div>
+			
+						
+
+      <!-- End page content -->
+    </div>
+  </body>
+</html>
