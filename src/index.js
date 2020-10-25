@@ -125,3 +125,20 @@ function levenshtein(a, b) {
 
   return matrix[b.length][a.length];
 }
+
+
+//------------------------------------------------------------------------
+//TASK 5
+//This function is for the final task 5 - bubble sort
+document
+  .getElementById("bubble_sort")
+  .addEventListener("click", function (event) {
+    //when the "view all destinations" button is clicked
+    //the website should show a list of all available destinations ordered by their price
+
+    //The following two lines prevent the page from reloading when the form is submitted
+    event.preventDefault();
+    return false;
+  });
+
+//------------------------------------------------------------------------
